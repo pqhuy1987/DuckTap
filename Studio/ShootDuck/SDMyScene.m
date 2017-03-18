@@ -46,8 +46,16 @@ typedef enum {
     if (self = [super initWithSize:size]) {
 
         _state = begin;
+        
+        // Replace @"Spaceship" with your background image:
+        SKSpriteNode *sn = [SKSpriteNode spriteNodeWithImageNamed:@"background"];
+        
+        sn.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+        sn.name = @"BACKGROUND";
+        
+        [self addChild:sn];
 
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        //self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
         self.startLabel = [SKLabelNode labelNodeWithFontNamed:@"Helvetica"];
         self.startLabel.text = @"Start";
         self.startLabel.fontSize = 30;

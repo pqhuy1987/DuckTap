@@ -228,6 +228,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Teaualune Tseng";
 				TargetAttributes = {
+					E6DFF6ED17A4B51D0056F270 = {
+						DevelopmentTeam = JQNK74493B;
+					};
 					E6DFF71517A4B51D0056F270 = {
 						TestTargetID = E6DFF6ED17A4B51D0056F270;
 					};
@@ -412,10 +415,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShootDuck/ShootDuck-Prefix.pch";
 				INFOPLIST_FILE = "ShootDuck/ShootDuck-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zencher.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.shootbird.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -430,10 +435,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShootDuck/ShootDuck-Prefix.pch";
 				INFOPLIST_FILE = "ShootDuck/ShootDuck-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zencher.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.shootbird.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
