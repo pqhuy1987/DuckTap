@@ -420,7 +420,7 @@
 				GCC_PREFIX_HEADER = "ShootDuck/ShootDuck-Prefix.pch";
 				INFOPLIST_FILE = "ShootDuck/ShootDuck-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digital.shootbird.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digital.bird2.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -440,7 +440,7 @@
 				GCC_PREFIX_HEADER = "ShootDuck/ShootDuck-Prefix.pch";
 				INFOPLIST_FILE = "ShootDuck/ShootDuck-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digital.shootbird.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digital.bird2.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
